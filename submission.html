@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kid Crafters - Submit Idea</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Kid Crafters</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="achievements.html">Hall of Achievements</a></li>
+        <li><a href="submission.html" class="active">Submit Idea</a></li>
+      </ul>
+    </nav>
+    <button id="darkModeToggle">🌙</button>
+  </header>
+
+  <section class="section fade-in-element">
+    <h2 style="font-size:2rem; font-weight:900; color:#28a745; margin-bottom:18px;">Submit Your Idea</h2>
+    <form>
+      <label for="name">Your Name</label>
+      <input type="text" name="name" required placeholder="Enter your name">
+
+      <label for="idea">Your Idea</label>
+      <textarea id="idea" rows="6" required placeholder="Describe your amazing idea..."></textarea>
+      <div class="word-counter">0 words</div>
+
+      <button type="submit">🚀 Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Kid Crafters. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
